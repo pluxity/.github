@@ -8,6 +8,11 @@ PLUXITY는 3D 지도 기반의 실시간 IoT 센서 모니터링 및 관제 시�
 
 ## 주요 프로젝트
 
+### 🌐 [plug-platform](https://github.com/pluxity/plug-platform)
+**PLUXITY 플랫폼 Frontend**
+- React 기반 실내 지도 관제 시스템
+- 실시간 IoT 센서 모니터링 및 제어
+
 ### 🗺️ [plug-platform-atlas](https://github.com/pluxity/plug-platform-atlas)
 **실외 지도 기반 관제 시스템**
 - Cesium.js 3D 지도 기반 IoT 센서 실시간 모니터링
@@ -22,14 +27,17 @@ PLUXITY는 3D 지도 기반의 실시간 IoT 센서 모니터링 및 관제 시�
 - Spring Security
 - [API 문서](http://dev.pluxity.com/api/api-docs)
 
-### 🏢 [aiot-api](https://github.com/pluxity/aiot-api)
-**AIoT Backend**
-- IoT 센서 데이터 수집 및 처리
-- 실시간 이벤트 알림 시스템
+---
 
-### 🏗️ [ktds-jayang](https://github.com/pluxity/ktds-jayang)
-**KT DS 자양1정비촉진구역 관제 프로젝트**
-- 스마트시티 통합 관제 시스템
+## 기타 프로젝트
+
+### 🏗️ KT DS 자양1정비촉진구역 관제 프로젝트
+**스마트시티 통합 관제 시스템**
+- [ktds-jayang](https://github.com/pluxity/ktds-jayang): 관제 시스템
+- [KTe-pathFind](https://github.com/pluxity/KTe-pathFind): 모바일 앱 (길찾기/할인정보)
+
+### 🌊 [tancheon_poc](https://github.com/pluxity/tancheon_poc)
+**탄천 POC 프로젝트**
 
 ---
 
