@@ -27,6 +27,14 @@ PLUXITY는 3D 지도 기반의 실시간 IoT 센서 모니터링 및 관제 시�
 - Spring Security
 - [API 문서](http://dev.pluxity.com/api/api-docs)
 
+### 🏗️ [plug-siteguard](https://github.com/pluxity/plug-siteguard)
+**스마트 건설 현장 관제 시스템**
+- React 19 + TypeScript + Tailwind CSS v4
+- Monorepo 구조 (Turborepo + pnpm)
+- Atomic Design 기반 UI 컴포넌트 라이브러리
+- Storybook 8 문서화
+- 용인 플랫폼시티 스마트시티 프로젝트
+
 ---
 
 ## 기타 프로젝트
