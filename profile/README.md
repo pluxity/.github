@@ -17,6 +17,15 @@ PLUXITY는 3D 지도 기반의 실시간 IoT 센서 모니터링 및 관제 시�
 
 ---
 
+## 프로젝트 보드
+
+| 프로젝트 | 설명 |
+|---------|------|
+| 📋 **[PF FrontEnd](https://github.com/orgs/pluxity/projects/17)** | 프론트엔드 팀 프로젝트 관리 |
+| 📋 **[PF BackEnd](https://github.com/orgs/pluxity/projects/20)** | 백엔드 팀 프로젝트 관리 |
+
+---
+
 ## Frontend
 
 ### 🎨 [pf-dev](https://github.com/pluxity/pf-dev)
