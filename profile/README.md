@@ -22,7 +22,7 @@ PLUXITY는 3D 지도 기반의 실시간 IoT 센서 모니터링 및 관제 시�
 
 **PF DEV 프론트엔드 모노레포**
 
-- **Apps**: yongin-platform-app, yongin-platform-admin, model-gps-tool, isr
+- **Apps**: yongin-platform-app, yongin-platform-admin, model-gps-tool
 - **Packages**: @pf-dev/ui, @pf-dev/map (CesiumJS), @pf-dev/three (R3F), @pf-dev/cctv (HLS/WHEP), @pf-dev/services, @pf-dev/api, @pf-dev/fonts
 - **Stack**: React 19, Vite 7, TypeScript 5, Tailwind CSS v4, Storybook 10, Turborepo, pnpm 10
 
@@ -31,7 +31,7 @@ PLUXITY는 3D 지도 기반의 실시간 IoT 센서 모니터링 및 관제 시�
 **PF DEV 백엔드 모노레포**
 
 - **Common**: core, auth (RBAC + JWT Cookie), file (S3/Local), messaging (WebSocket/STOMP), test-support
-- **Apps**: safers, yongin-platform
+- **Apps**: safers, yongin-platform, weekly-report
 - **Stack**: Kotlin 2.3, Spring Boot 4, Java 25, Gradle 9.3, GitHub Actions CI/CD
 
 ### 📡 [PlugMTX](https://github.com/pluxity/PlugMTX)
@@ -39,7 +39,7 @@ PLUXITY는 3D 지도 기반의 실시간 IoT 센서 모니터링 및 관제 시�
 **미디어 스트리밍 서버 (MediaMTX Fork)**
 
 - Go 기반, WebRTC/HLS Dashboard, PTZ Control
-- Hikvision ISAPI 연동
+- Hikvision ISAPI · ONVIF 연동
 
 ---
 
