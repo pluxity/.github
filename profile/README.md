@@ -6,60 +6,91 @@ PLUXITY는 3D 지도 기반의 실시간 IoT 센서 모니터링 및 관제 시�
 
 ---
 
-## 팀 문서 · 프로젝트 보드
+## 프로젝트 관리
 
-| 링크 | 설명 |
-|------|------|
-| 📚 **[docs](https://github.com/pluxity/docs)** | 팀 공통 문서 (온보딩, 아키텍처, API, 인프라) |
-| 📋 **[PF FrontEnd Board](https://github.com/orgs/pluxity/projects/17)** | 프론트엔드 팀 프로젝트 관리 |
-| 📋 **[PF BackEnd Board](https://github.com/orgs/pluxity/projects/20)** | 백엔드 팀 프로젝트 관리 |
+> 모든 이슈와 작업은 하나의 통합 보드에서 관리됩니다.
+
+### [Platform Dev](https://github.com/orgs/pluxity/projects/24)
+
+전체 프로젝트의 이슈 트래킹, 스프린트 관리, 진행 상황을 한눈에 확인할 수 있습니다.
+
+| 연계 레포지토리 | 설명 |
+|----------------|------|
+| [pf-frontend](https://github.com/pluxity/pf-frontend) | 프론트엔드 모노레포 |
+| [pf-backend](https://github.com/pluxity/pf-backend) | 백엔드 모노레포 |
+| [Hoban-Live-CV](https://github.com/pluxity/Hoban-Live-CV) | 호반건설 라이브 CV |
+| [safers](https://github.com/pluxity/safers) | 세이퍼스 V2 |
+| [weekly-report](https://github.com/pluxity/weekly-report) | 주간보고 자동화 |
 
 ---
 
-## 핵심 레포지토리
+## 메인 프로젝트
 
-### 🎨 [pf-frontend](https://github.com/pluxity/pf-frontend)
+### [pf-frontend](https://github.com/pluxity/pf-frontend)
 
-**PF DEV 프론트엔드 모노레포**
+**프론트엔드 모노레포** — React 19, Vite 7, TypeScript 5, Tailwind CSS v4, Turborepo
 
 - **Apps**: yongin-platform-app, yongin-platform-admin, model-gps-tool
 - **Packages**: @pf-dev/ui, @pf-dev/map (CesiumJS), @pf-dev/three (R3F), @pf-dev/cctv (HLS/WHEP), @pf-dev/services, @pf-dev/api, @pf-dev/fonts
-- **Stack**: React 19, Vite 7, TypeScript 5, Tailwind CSS v4, Storybook 10, Turborepo, pnpm 10
 
-### ⚙️ [pf-backend](https://github.com/pluxity/pf-backend)
+### [pf-backend](https://github.com/pluxity/pf-backend)
 
-**PF DEV 백엔드 모노레포**
+**백엔드 모노레포** — Kotlin 2.3, Spring Boot 4, Java 25, Gradle 9.3
 
 - **Common**: core, auth (RBAC + JWT Cookie), file (S3/Local), messaging (WebSocket/STOMP), test-support
 - **Apps**: safers, yongin-platform, weekly-report
-- **Stack**: Kotlin 2.3, Spring Boot 4, Java 25, Gradle 9.3, GitHub Actions CI/CD
 
-### 📡 [PlugMTX](https://github.com/pluxity/PlugMTX)
+### [Hoban-Live-CV](https://github.com/pluxity/Hoban-Live-CV)
 
-**미디어 스트리밍 서버 (MediaMTX Fork)**
-
-- Go 기반, WebRTC/HLS Dashboard, PTZ Control
-- Hikvision ISAPI · ONVIF 연동
+**호반건설 라이브 Computer Vision** — 실시간 영상 기반 CV 분석
 
 ---
 
-## 프로젝트별 레포지토리
+## 팀 문서
+
+### [docs](https://github.com/pluxity/docs)
+
+팀 공통 문서 저장소 — 온보딩, 아키텍처, API 스펙, 인프라 가이드
+
+---
+
+## 서브 프로젝트
+
+| 레포 | 설명 | 비고 |
+|------|------|------|
+| [weekly-report](https://github.com/pluxity/weekly-report) | LLM 기반 자연어 주간보고 자동화 시스템 | Platform Dev 연계 |
+| [safers](https://github.com/pluxity/safers) | 세이퍼스 V2 A2UI 버전 | Platform Dev 연계 |
+
+---
+
+## 진행중 프로젝트
 
 | 레포 | 설명 | 기술 |
 |------|------|------|
 | [plug-platform-atlas](https://github.com/pluxity/plug-platform-atlas) | 실외 지도 기반 관제 | CesiumJS, React 19 |
 | [aiot-api](https://github.com/pluxity/aiot-api) | plug-platform-atlas 백엔드 | Kotlin, Spring Boot |
-| [plug-siteguard](https://github.com/pluxity/plug-siteguard) | 용인플랫폼시티 스마트건설 | React 19, Tailwind v4 |
+| [tancheon_poc](https://github.com/pluxity/tancheon_poc) | 탄천 악취모니터링 POC | - |
 
 ---
 
-## 아카이브 / 레거시
+## 인프라 · 내부 도구
+
+| 레포 | 설명 |
+|------|------|
+| [PlugMTX](https://github.com/pluxity/PlugMTX) | Go 기반 미디어 스트리밍 서버 (MediaMTX Fork) — WebRTC/HLS, PTZ Control |
+| [pluxity-issues](https://github.com/pluxity/pluxity-issues) | 전사 이슈 트래커 (GitHub 외부 프로젝트 포함) |
+
+---
+
+## 아카이브
 
 | 레포 | 설명 |
 |------|------|
 | [plug-platform](https://github.com/pluxity/plug-platform) | 실내 지도 기반 관제 (Cesium + Three.js) |
 | [plug-platform-api](https://github.com/pluxity/plug-platform-api) | plug-platform 백엔드 (Java, Spring Boot) |
-| [tancheon_poc](https://github.com/pluxity/tancheon_poc) | 탄천 POC |
+| [plug-siteguard](https://github.com/pluxity/plug-siteguard) | 호반 용인플랫폼시티 스마트건설 |
+| [ktds-jayang](https://github.com/pluxity/ktds-jayang) | KT DS 자양1재정비촉진구역 관제 |
+| [KTe-pathFind](https://github.com/pluxity/KTe-pathFind) | KTe 모바일앱 (길찾기/할인정보) |
 
 ---
 
@@ -101,15 +132,6 @@ PLUXITY는 3D 지도 기반의 실시간 IoT 센서 모니터링 및 관제 시�
 | Web Server | Nginx |
 | Container | Docker |
 | Streaming | MediaMTX (PlugMTX) |
-
----
-
-## 내부 도구
-
-| 도구 | 설명 |
-|------|------|
-| [weekly-report](https://github.com/pluxity/weekly-report) | LLM 기반 주간보고 자동화 시스템 |
-| [docs](https://github.com/pluxity/docs) | 팀 공통 문서 (온보딩, 아키텍처, API, 인프라) |
 
 ---
 
