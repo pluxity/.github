@@ -38,7 +38,7 @@ PLUXITY는 3D 지도 기반의 실시간 IoT 센서 모니터링 및 관제 시�
 **백엔드 모노레포** — Kotlin 2.3, Spring Boot 4, Java 25, Gradle 9.3
 
 - **Common**: core, auth (RBAC + JWT Cookie), file (S3/Local), messaging (WebSocket/STOMP), test-support
-- **Apps**: safers, yongin-platform, weekly-report
+- **Apps**: yongin-platform, weekly-report
 
 ### [Hoban-Live-CV](https://github.com/pluxity/Hoban-Live-CV)
 
@@ -59,7 +59,6 @@ PLUXITY는 3D 지도 기반의 실시간 IoT 센서 모니터링 및 관제 시�
 | 레포 | 설명 | 비고 |
 |------|------|------|
 | [weekly-report](https://github.com/pluxity/weekly-report) | LLM 기반 자연어 주간보고 자동화 시스템 | Platform Dev 연계 |
-| [safers](https://github.com/pluxity/safers) | 세이퍼스 V2 A2UI 버전 | Platform Dev 연계 |
 
 ---
 
