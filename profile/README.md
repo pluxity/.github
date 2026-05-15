@@ -18,8 +18,8 @@ PLUXITY는 3D 지도 기반의 실시간 IoT 센서 모니터링 및 관제 시�
 |----------------|------|
 | [pf-frontend](https://github.com/pluxity/pf-frontend) | 프론트엔드 모노레포 |
 | [pf-backend](https://github.com/pluxity/pf-backend) | 백엔드 모노레포 |
-| [Hoban-Live-CV](https://github.com/pluxity/Hoban-Live-CV) | 호반건설 라이브 CV |
-| [safers](https://github.com/pluxity/safers) | 세이퍼스 V2 |
+| [safers](https://github.com/pluxity/safers) | 세이퍼스 V2 프론트엔드 (React) |
+| [safers-api](https://github.com/pluxity/safers-api) | 세이퍼스 V2 백엔드 API (Kotlin/Spring Boot) |
 | [weekly-report](https://github.com/pluxity/weekly-report) | 주간보고 자동화 |
 
 ---
