@@ -11,6 +11,7 @@ PLUXITY는 3D 지도 기반의 실시간 IoT 센서 모니터링 및 관제 시�
 > 모든 이슈와 작업은 하나의 통합 보드에서 관리됩니다.
 
 ### [Platform Dev](https://github.com/orgs/pluxity/projects/24)
+### [Safers](https://github.com/orgs/pluxity/projects/29)
 
 전체 프로젝트의 이슈 트래킹, 스프린트 관리, 진행 상황을 한눈에 확인할 수 있습니다.
 
